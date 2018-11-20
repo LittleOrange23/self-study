@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    [title=book]{
+      background: red;
+    }
+    /* [title~=book] {
+      border: 10px solid brown
+    } */
+    [title|=book]{
+      border: 20px solid red;
+    }
+    a:active {
+      color: green
+    }
+    a:hover {
+      background: red
+    }
+    input:focus {
+      background: yellow
+    }
+    p:first-of-type {
+      color: red
+    }
+  </style>
+</head>
+<body>
+  <input type="text">
+  <a href="" >111</a>
+  <img src="../第一天/images/1.png" alt="" title="book are">
+  <p>hhhs  <span>333</span></p>
+  <p>hhh</p>
+  <p>hhh</p>
+  <p>hhh</p>
+</body>
+</html>

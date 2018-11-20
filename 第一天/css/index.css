@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin-left: 50px; 
+}
+nav {
+  height: 30px;
+}
+.nav-ul {
+  float: right;
+}
+.nav-ul li {
+  width: 90px;
+  float: right;
+  list-style: none;
+}
+main {
+  margin-top: 30px;
+}
+.left {
+  width: 600px;
+  float: left;
+  margin-left: 50px; 
+}
+.image1 {
+  float: right;
+  padding: 0px 5px 5px 5px;
+}
+.article-two {
+  margin-top: 50px;
+}
+.article-two-title1 {
+  padding-top: 15px;
+}
+.left-section {
+  margin-bottom: 30px;
+  height: 200px;
+}
+.image2 {
+  float: left;
+}
+.right {
+  width: 400px;
+  float: right;
+  margin-right: 50px;
+}
+.news-title {
+  text-align: center;
+}
+.news-title-common {
+  font-weight: bold;
+  font-size: 20px;
+}
+.right-img {
+  margin-top: 80px;
+}
+footer {
+  height: 100px;
+  clear: both;
+  text-align: center;
+  background: #000;
+  line-height: 100px;
+}
+address {
+  color: #fff;
+}
+
+/* 设置超链接样式 */
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  display: block;
+  background: #ccc;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+

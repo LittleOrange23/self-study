@@ -1,0 +1,166 @@
+/* 全局样式 */
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.home {
+  width: 100%;
+}
+/* 头部样式 */
+header {
+  width: 1200px;
+  height: 88px;
+  margin:0 auto;
+}
+.logo {
+  float: left;
+  /* margin-left: 18.75%; */
+  margin-top: 23px;
+}
+.logo-right {
+  float: right;
+  /* margin-right: 18.75%; */
+  margin-top: 34px;
+}
+/* 导航样式 */
+nav {
+  /* width: 1200px; */
+  width: 100%;
+  height: 34px;
+  margin:0 auto;
+  background: #336699;
+}
+.nav-ul {
+  width: 1200px;
+  height: 34px;
+  /* margin-left: 18.75%;  */
+}
+.nav-ul li {
+  list-style: none;
+  float: left;
+  height: 27px;
+  width: 164px;
+  border-right: 1px solid #fff;
+  text-align: center;
+  margin-top: 4px;
+  line-height: 27px;
+}
+.nav-ul li a {
+  display: block;
+}
+.nav-ul li:nth-child(1)
+{
+  background: #3366cc;
+}
+/* 主体演示 */
+main {
+  height: 555px;
+  width: 100%;
+  background: url("../images/background.jpg") no-repeat center center;
+}
+
+.content {
+  width: 1097px;
+  margin:0 auto;
+  padding-top: 87px;
+  /* margin-left: 103px */
+  padding-left: 103px;
+
+}
+.main-title {
+  font-size: 34px;
+  padding-bottom: 15px;
+}
+.main-explain {
+  padding-bottom: 17px;
+}
+/* 底部样式 */
+footer {
+  width: 100%; 
+  background: #336699;
+  height: 160px;
+}
+.footer-content {
+  width: 1200px;
+  margin:0 auto;
+}
+.footer-left {
+  /* float: left; */
+  width: 230px;
+  height: 100px;;
+  margin-top: 28px;
+  /* margin-left: 21%; */
+  /* line-height: 100px; */
+  margin-left: 43px;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+.footerimg1,.footerimg1 {
+  padding-top: 25px
+}
+.footerimg1 {
+  margin-right: 22px; 
+}
+.footer-right {
+  float: left;
+  height: 100px;
+  margin-top: 28px;
+  color: #fff;
+  margin-left: 35px;
+}
+.footer-menu li{
+  list-style: none;
+  float: left;
+  padding-right: 12px;
+  padding-left: 6px;
+  border-right: 1px solid #fff;
+}
+.footer-menu li:last-child {
+  border: none;
+}
+.footer-company {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  clear: both;
+}
+.footer-company span {
+  padding-right: 10px;
+}
+address {
+  font-style: normal;
+}
+.footer-tel {
+  width: 100px;
+  height: 25px;
+  background: #3399cc;
+  border-radius: 5px;
+  padding-top: 5px;
+  text-align: center;
+  margin-top: 10px;
+  float: left;
+}
+.footer-icon {
+  padding-right: 7px;
+}
+.footer-time {
+  float: left;
+  margin-left: 28px;
+  margin-top: 15px;
+}
+
+/* 链接样式 */
+a:link{
+  color: #fff;
+  text-decoration: none;
+}
+.nav-ul li a:hover {
+ color: #fbf5c6;
+ display: block;
+ background: #3366cc;
+ transition: all 0.5s ease;
+}
+.footer-menu li a:hover{
+  color: #fbf5c6;
+}
+
