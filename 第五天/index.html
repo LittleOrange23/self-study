@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    //1、按要求写出以下正则表达式：第一个须为数字，后面可以是字母、数字、下划线，总长度为6-10位。
+    var c = /^[0-9]\w{5,9}$/
+    console.log(c.test("3sssss"))
+    //2、JavaScript中如何检测一个变量是一个数组类型？请写出函数实现。
+    //使用 instanceof 实现：  
+    function isArray1(arr) {
+      if (arr instanceof Array == true)
+        alert("该变量是数组类型")
+    }
+    //使用ES5的Array.isArray()判断
+    function isArray2(arr) {
+      if (Array.isArray(arr) == true)
+        alert("该变量是数组类型")
+    }
+    var ar = [1, 2, 3]
+    isArray1(ar)
+    isArray2(ar)
+    // 3、请用js写一个去除字符串空格的函数。
+    //使用正则表达式实现
+    function removeBlank(reg) {
+      return reg.replace(/\s*/g, '')
+    }
+    console.log(removeBlank("abs sdh"));
+  </script>
+</body>
+
+</html>
