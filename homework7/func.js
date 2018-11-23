@@ -1,14 +1,12 @@
 module.exports = {
   translateLetter: function (letter, flag) {  
     // 如果flag=0，则将字符串转换成大写
-    if(flag == 0)
-    {
+    if(flag == 0){
       letter = letter.toUpperCase()   
       // console.log(letter)
     }
     // flag =1,则将字符串转换成小写
-    else if(flag == 1)
-    {
+    else if(flag == 1){
       letter = letter.toLowerCase()
     }
     return letter
