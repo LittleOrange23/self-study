@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+.page-header .container {
+  height: 88px;
+}
+
+.logo {
+  width: 277px;
+  height: 51px;
+  background: url(../img/logo.png) left top no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.link-provincial-government {
+  position: absolute;
+  line-height: 30px;
+  right: 0;
+  top: 50%;
+  margin-top: -15px;
+  background: url(../img/seal.png) left center no-repeat;
+  padding-left: 30px;
+}
+
+.link-provincial-government:link,
+.link-provincial-government:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+.link-provincial-government:hover {
+  text-decoration: none;
+  color: #f00;
+}
+
+.main-nav {
+  background: #369;
+}
+
+.main-nav .container {
+  padding: 5px;
+  margin: auto;
+  list-style: none;
+  font-size: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  width: 200px;
+  font-size: 18px;
+}
+
+.main-nav li a {
+  border-left: #fff 1px solid;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav li:first-child a {
+  border-left: none;
+  line-height: 24px;
+}
+.main-nav li.current a {
+  background: #36c;
+}
+
+.page-footer {
+  background: #369;
+  padding: 20px 0;
+}
+.footer-link {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -30px;
+  width: 270px;
+  height: 61px;
+  letter-spacing: 20px;
+}
+.footer-link a {
+  text-decoration: none;
+}
+.copyright {
+  margin-left: 270px;
+  padding-left: 30px;
+  text-align: left;
+  border-left:#4d71a6 1px solid;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+}
+.copyright a{
+  color: #fff;
+  text-decoration: none;
+}
+.copyright .tel {
+  display: inline-block;
+  height: 30px;
+  background: #39c url(../img/tel.png) 16px center no-repeat;
+  padding-left: 44px;
+  padding-right: 17px;
+  border-radius: 5px;
+}
+
+.page-body {
+  background: url(../img/body.jpg);
+}
+.page-body .container {
+  text-align: left;
+  padding-top: 70px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  border: transparent 1px solid;
+}
+.cotainer-title {
+  font-size: 50px;
+  margin: 0
+}
+.sub-title {
+  font-size: 18px;
+  line-height: 32px;
+  /* padding: 0; */
+  margin: 0;
+  /* font-family: sans-serif */
+  font-weight: normal;
+  font-size: 16px;
+}
+.container-info {
+  line-height: 32px;
+  margin: 0;
+  font-size: 16px;
+  /* padding: 0 */
+}
